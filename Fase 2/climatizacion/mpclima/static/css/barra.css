@@ -1,0 +1,10 @@
+.search-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin: 20px; /* Espacio superior e inferior */
+  }
+  
+  input[type="text"] {
+    width: 300px; /* Puedes ajustar el ancho de la barra de búsqueda */
+    padding: 10px;
+  }

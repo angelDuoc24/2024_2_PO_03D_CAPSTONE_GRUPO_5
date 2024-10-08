@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+
+    <title>MP Climatización</title>
+    <link rel="stylesheet" href="static/css/chat.css">
+		
+  </head>
+  <body>
+       <!-- Header / Navbar -->
+       <header>
+        <div class="navbar">
+            <div class="logo">MP Climatización</div>
+            <div class="nav-links">
+                <a href="login">Login</a>
+                <a href="#">Tienda</a>
+                <a href="servicios">Servicios</a>
+                <a href="quiensomo">Acerca de</a>
+                <a href="contactanos">Contacto</a>
+                <a href="#">Carrito</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-background text-primary-foreground py-12 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">Contáctanos</h2>
+    <p class="text-sm text-muted-foreground text-center mb-8">Cuenta sobre qué pueden consultar y qué deben esperar después de que se comuniquen contigo. No olvides elegir una opción de almacenamiento para los mensajes que recibas.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <div class="bg-card rounded-lg overflow-hidden shadow-lg p-4">
+          <h3 class="text-lg font-semibold mb-2">Get in Touch</h3>
+          <div class="mb-4">
+            <label for="name" class="block text-sm text-muted-foreground mb-1">Name</label>
+            <input id="name" type="text" placeholder="Your Name" class="w-full bg-input text-primary-foreground border border-primary rounded-md py-2 px-3 focus:outline-none focus:ring focus:ring-primary" />
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-sm text-muted-foreground mb-1">Email</label>
+            <input id="email" type="email" placeholder="Your Email" class="w-full bg-input text-primary-foreground border border-primary rounded-md py-2 px-3 focus:outline-none focus:ring focus:ring-primary" />
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-sm text-muted-foreground mb-1">Message</label>
+            <textarea id="message" rows="4" placeholder="Your Message" class="w-full bg-input text-primary-foreground border border-primary rounded-md py-2 px-3 focus:outline-none focus:ring focus:ring-primary"></textarea>
+          </div>
+          <button class="bg-primary text-primary-foreground py-2 px-6 rounded-full hover:bg-primary/80">Send</button>
+        </div>
+      </div>
+      <div>
+        <img src="static/Images/equipoExterior.png" alt="Contact" class="w-full h-auto object-cover rounded-lg shadow-lg" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+      <div class="site-title">MP Climatización</div>
+      <div>Hecho con Django</div>
+      <div>Ubicación: Av. siempreViva, 123 - Nueva York, NY 12345</div>
+      <div>Contacto: correo@ejemplo.com | (555) 555-5555</div>
+  </div>
+</footer>
+
+  </body>
+</html>

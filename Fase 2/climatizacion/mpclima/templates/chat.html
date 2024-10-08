@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP Climatización</title>
+    <link rel="stylesheet" href="static/css/chat.css">
+     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">MP Climatización</div>
+            <div class="nav-links">
+                <a href="login">Login</a>
+                <a href="productos">Tienda</a>
+                <a href="servicios">Servicios</a>
+                <a href="quiensomo">Acerca de</a>
+                <a href="contactanos">Contacto</a>
+                <a href="#">Carrito</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Imagen central con texto -->
+    <section class="hero-section">
+        <img src="static/Images/imagenPresentacion.png" alt="Climatización">
+        <div class="hero-text">Transformamos la manera en que disfrutas el clima interior</div>
+    </section>
+
+    <!-- Productos destacados -->
+    <div class="text-center py-10">
+        <h2 class="text-3xl font-bold mb-6">Productos destacados</h2>
+        <div class="flex justify-center space-x-8">
+          <div class="flex flex-col items-center">
+            <img aria-hidden="true" alt="Thermostat" src="static/Images/reloj.png" class="rounded-full mb-4" />
+            <h3 class="text-lg font-semibold">Evaluaciones Avanzadas</h3>
+            <p class="text-muted-foreground">25 €</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img aria-hidden="true" alt="Efficient Installation Guide" src="static/Images/equipoExterior.png" class="rounded-full mb-4" />
+            <h3 class="text-lg font-semibold">Guía de Instalación Eficiente</h3>
+            <p class="text-muted-foreground">25 €</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img aria-hidden="true" alt="SmartClima Advisor" src="static/Images/bomba.png" class="rounded-full mb-4" />
+            <h3 class="text-lg font-semibold">SmartClima Asesor</h3>
+            <p class="text-muted-foreground">25 €</p>
+          </div>
+        </div>
+        <button class="mt-6 bg-secondary text-secondary-foreground hover:bg-secondary/80 py-2 px-4 rounded-lg">VER TODO</button>
+      </div>
+
+    <!-- Nuestros servicios -->
+  <!--INICIO NUESTROS SERVICIOS-->
+  <div class="container mx-auto p-6">
+    <h2 class="text-3xl font-bold text-center mb-6">Nuestros servicios</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-card p-4 rounded-lg shadow-lg">
+        <img aria-hidden="true" alt="Opiniones Expertas en Clima" src="static/Images/regulador.png" class="w-full h-32 object-cover rounded-t-lg" />
+        <h3 class="text-xl font-semibold mt-2">Opiniones Expertas en Clima</h3>
+        <p class="text-muted-foreground">99 €</p>
+        <p class="text-muted-foreground">
+          Descubre análisis detallados sobre los últimos modelos de aires acondicionados. Nuestra perspectiva innovadora te guiará a elegir la opción perfecta para tu confort y eficiencia energética.
+        </p>
+      </div>
+      <div class="bg-card p-4 rounded-lg shadow-lg">
+        <img aria-hidden="true" alt="AireInteligente" src="static/Images/maquinon.png" class="w-full h-32 object-cover rounded-t-lg" />
+        <h3 class="text-xl font-semibold mt-2">AireInteligente</h3>
+        <p class="text-muted-foreground">149 €</p>
+        <p class="text-muted-foreground">
+          Descubra consejos prácticos y avanzados para una instalación de aire acondicionado eficiente y segura. Transforme su espacio con soluciones innovadoras garantizando confort energético.
+        </p>
+      </div>
+      <div class="bg-card p-4 rounded-lg shadow-lg">
+        <img aria-hidden="true" alt="Savia Smart Care" src="static/Images/bomba.png" class="w-full h-32 object-cover rounded-t-lg" />
+        <h3 class="text-xl font-semibold mt-2">Calidad en Mantención</h3>
+        <p class="text-muted-foreground">199 €</p>
+        <p class="text-muted-foreground">
+          Transformamos el cuidado de tus aires acondicionados con asesorías personalizadas, potenciando rendimiento y durabilidad con un enfoque en sostenibilidad y eficiencia.
+        </p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer -->
+    <div class="flex justify-between p-4 bg-background text-foreground">
+        <div>
+          <h1 class="text-2xl font-bold">MP Climatización</h1>
+          <p class="text-muted-foreground">Hecho con Amor </p>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="font-semibold">Puente Alto</h2>
+          <p class="text-muted-foreground">Avenida siempre viva, 123</p>
+          <p class="text-muted-foreground">Nueva York, NY 12345</p>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="font-semibold">Papá de nicolas</h2>
+          <p class="text-muted-foreground"><a href="mailto:correo@ejemplo.com" class="text-primary hover:underline">correo@ejemplo.com</a></p>
+          <p class="text-muted-foreground">(555) 555-5555</p>
+        </div>
+      </div>
+</body>
+</html>
